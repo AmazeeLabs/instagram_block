@@ -182,7 +182,10 @@ function instagram_block_block_view($delta = '') {
       watchdog_exception('instagram_block', $e);
       throw $e;
     }
+
+    // Set resolution from block config.
     $img_resolution = isset($values['img_resolution']) ? $values['img_resolution'] : 'thumbnail';
+
     $response = $request->get_instagram_posts();
     foreach ($response as $post) {
       $url = $post->images->{$img_resolution}->url;
