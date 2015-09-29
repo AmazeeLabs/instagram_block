@@ -180,7 +180,9 @@ function instagram_block_block_view($delta = '') {
     }
     catch (Exception $e) {
       watchdog_exception('instagram_block', $e);
-      throw $e;
+      // We should not throw the exception here, because it will generated an
+      // error on the site.
+      //throw $e;
     }
 
     // Set resolution from block config.
