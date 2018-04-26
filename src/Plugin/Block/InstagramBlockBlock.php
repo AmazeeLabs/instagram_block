@@ -169,6 +169,11 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
     // If no configuration was saved, don't attempt to build block.
     if (empty($this->configuration['access_token'])) {
       // @TODO Display a message instructing user to configure module.
+      \Drupal::logger('instagram_block')->error('The configuration for the instagram block was not filled in correctly: User id: @user_id, Access token: @acces_token', array(
+        '@user_id' => empty($this->configuration['user_id']) ? 'empty' : $this->configuration['user_id'],
+        '@acces_token' => empty($module_config['access_token']) ? '' : $module_config['access_token'],
+      ));
+
       return $build;
     }
 
@@ -237,6 +242,11 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
       return $data;
     }
     catch (RequestException $e) {
+      \Drupal::logger('instagram_block')->error('Status code @status_code: @message', array(
+        '@status_code' => $e->getCode(),
+        '@message' => $e->getMessage(),
+      ));
+
       return FALSE;
     }
   }
