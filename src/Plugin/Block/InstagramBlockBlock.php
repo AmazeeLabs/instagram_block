@@ -181,6 +181,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
     $uri = "https://api.instagram.com/v1/users/self/media/recent/";
     $options = [
       'query' => [
+        'client_id' => '',
         'access_token' => $this->configuration['access_token'],
         'count' => $this->configuration['count'],
       ],
@@ -189,7 +190,33 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
 
     // Get the instagram images and decode.
     $result = $this->fetchData($url);
-    if (!$result) {
+    if (!$result || empty($result['data'])) {
+      $username = 'unisgmba';
+      $insta_source = file_get_contents('http://instagram.com/' . $username);
+      $shards = explode('window._sharedData = ', $insta_source);
+      $insta_json = explode(';</script>', $shards[1]);
+      $results_array = json_decode($insta_json[0], TRUE);
+      $url_list = [];
+      for ($i = 0; $i < $this->configuration['count']; $i++) {
+        if (isset($results_array['entry_data']['ProfilePage'][0]['graphql']['user']['edge_owner_to_timeline_media']['edges'][$i]['node'])) {
+          $image = $results_array['entry_data']['ProfilePage'][0]['graphql']['user']['edge_owner_to_timeline_media']['edges'][$i]['node'];
+
+          $result['data'][] = [
+            'id' => $image['id'],
+            'shortcode' => $image['shortcode'],
+            'link' => 'https://www.instagram.com/p/' . $image['shortcode'],
+            'images' => [
+              $this->configuration['img_resolution'] => [
+                'url' => $image['display_url'],
+              ],
+            ],
+            'caption' => [
+              'text' => $image['edge_media_to_caption']['edges'][0]['node']['text'],
+            ],
+          ];
+        }
+      }
+
       return $build;
     }
 
