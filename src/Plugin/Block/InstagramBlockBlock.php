@@ -217,7 +217,10 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
         }
       }
 
-      return $build;
+      // If still empty return nothing...
+      if (!$result || empty($result['data'])) {
+        return $build;
+      }
     }
 
     foreach ($result['data'] as $post) {
