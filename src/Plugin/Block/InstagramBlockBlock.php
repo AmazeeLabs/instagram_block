@@ -222,12 +222,12 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
     if (!$result || empty($result['data'])) {
       $result['data'] = [
         [
-          'id' => 'BiyyyQOHQBt',
-          'shortcode' => 'BiyyyQOHQBt',
-          'link' => 'https://wwww.instagram.com/p/BiyyyQOHQBt',
+          'id' => 'B2BVJupo72o',
+          'shortcode' => 'B2BVJupo72o',
+          'link' => 'https://www.instagram.com/p/B2BVJupo72o/',
           'images' => [
             'low_resolution' => [
-              'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/cb10f93d7be1b59082a093ea70cea28c/5B95A298/t51.2885-15/e35/31686869_155643895287485_8866883111267336192_n.jpg',
+              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/28fb489c52255b4af8692497d4f5bf94/5E0CE460/t51.2885-15/sh0.08/e35/s640x640/70367691_2386733384878724_3769865169782033076_n.jpg?_nc_ht=instagram.fcpt4-1.fna.fbcdn.net&_nc_cat=108',
             ],
           ],
           'caption' => [
@@ -237,7 +237,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
         [
           'id' => 'BiweaukHdTT',
           'shortcode' => 'BiweaukHdTT',
-          'link' => 'https://wwww.instagram.com/p/BiweaukHdTT',
+          'link' => 'https://www.instagram.com/p/BiweaukHdTT',
           'images' => [
             'low_resolution' => [
               'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/5176a799b97c484b87003a93fc0f9361/5B9BFEBF/t51.2885-15/e35/31748634_208122266657584_781542455685152768_n.jpg',
@@ -250,7 +250,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
         [
           'id' => 'BiW1N0nnbWK',
           'shortcode' => 'BiW1N0nnbWK',
-          'link' => 'https://wwww.instagram.com/p/BiW1N0nnbWK',
+          'link' => 'https://www.instagram.com/p/BiW1N0nnbWK',
           'images' => [
             'low_resolution' => [
               'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/6f32db9f4aa58adfe439af05e5800591/5B8FA882/t51.2885-15/e35/31401052_388569301644582_3591806034961760256_n.jpg',
@@ -263,7 +263,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
         [
           'id' => 'BiMHoMcHNhE',
           'shortcode' => 'BiMHoMcHNhE',
-          'link' => 'https://wwww.instagram.com/p/BiMHoMcHNhE',
+          'link' => 'https://www.instagram.com/p/BiMHoMcHNhE',
           'images' => [
             'low_resolution' => [
               'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/56123e648bf71fd33ab82f77b6e6b591/5B887613/t51.2885-15/e35/31463316_1706845616071769_342089974713155584_n.jpg',
@@ -276,7 +276,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
         [
           'id' => 'BiMESp9nfCZ',
           'shortcode' => 'BiMESp9nfCZ',
-          'link' => 'https://wwww.instagram.com/p/BiMESp9nfCZ',
+          'link' => 'https://www.instagram.com/p/BiMESp9nfCZ',
           'images' => [
             'low_resolution' => [
               'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/469f815827618c644b2f3a9c13fa00f2/5B859A05/t51.2885-15/e35/30900040_237201903496744_5893046892228509696_n.jpg',
@@ -289,7 +289,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
         [
           'id' => 'BiFa_jOn_Z7',
           'shortcode' => 'BiFa_jOn_Z7',
-          'link' => 'https://wwww.instagram.com/p/BiFa_jOn_Z7',
+          'link' => 'https://www.instagram.com/p/BiFa_jOn_Z7',
           'images' => [
             'low_resolution' => [
               'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/241ff938e81f5edeb9997173307fdf38/5B91B4FD/t51.2885-15/e35/30605245_420796315033149_8530602719772147712_n.jpg',
@@ -302,7 +302,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
         [
           'id' => 'Bh8ej1FnS1W',
           'shortcode' => 'Bh8ej1FnS1W',
-          'link' => 'https://wwww.instagram.com/p/Bh8ej1FnS1W',
+          'link' => 'https://www.instagram.com/p/Bh8ej1FnS1W',
           'images' => [
             'low_resolution' => [
               'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/5728c0c53beec73bc3ace6277a12bb2e/5B7B00CC/t51.2885-15/e35/30592556_947382698755478_8477859357441130496_n.jpg',
@@ -315,7 +315,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
         [
           'id' => 'Bh6ReH4nEp6',
           'shortcode' => 'Bh6ReH4nEp6',
-          'link' => 'https://wwww.instagram.com/p/Bh6ReH4nEp6',
+          'link' => 'https://www.instagram.com/p/Bh6ReH4nEp6',
           'images' => [
             'low_resolution' => [
               'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/a41ee72b9382ae3ffb169cf72bc8843d/5B767BA7/t51.2885-15/e35/30591890_2092233024390221_8676976622559035392_n.jpg',
@@ -328,7 +328,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
         [
           'id' => 'BhyU_8KHJMW',
           'shortcode' => 'BhyU_8KHJMW',
-          'link' => 'https://wwww.instagram.com/p/BhyU_8KHJMW',
+          'link' => 'https://www.instagram.com/p/BhyU_8KHJMW',
           'images' => [
             'low_resolution' => [
               'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/dc5ee7a01ee6f5035a96d6899869baca/5B770F7F/t51.2885-15/e35/30841906_191888794939666_8667454967826612224_n.jpg',
