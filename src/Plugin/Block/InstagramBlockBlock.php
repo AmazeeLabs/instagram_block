@@ -82,7 +82,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
       'width' => 150,
       'height' => 150,
       'img_resolution' => 'thumbnail',
-      'cache_time_minutes' => 1440,
+      'cache_time_minutes' => 360,
     ];
   }
 
@@ -135,7 +135,7 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
     $form['cache_time_minutes'] = [
       '#type' => 'number',
       '#title' => $this->t('Cache time in minutes'),
-      '#description' => $this->t("Default is 1440 - 24 hours. This is important for performance reasons and so the Instagram API limits isn't reached on busy sites."),
+      '#description' => $this->t("Default is 360min = 6 hours. This is important for performance reasons and so the Instagram API limits isn't reached on busy sites."),
       '#default_value' => $this->configuration['cache_time_minutes'],
     ];
 
@@ -227,115 +227,115 @@ class InstagramBlockBlock extends BlockBase implements ContainerFactoryPluginInt
           'link' => 'https://www.instagram.com/p/B2BVJupo72o/',
           'images' => [
             'low_resolution' => [
-              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/28fb489c52255b4af8692497d4f5bf94/5E0CE460/t51.2885-15/sh0.08/e35/s640x640/70367691_2386733384878724_3769865169782033076_n.jpg?_nc_ht=instagram.fcpt4-1.fna.fbcdn.net&_nc_cat=108',
+              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/28fb489c52255b4af8692497d4f5bf94/5E0CE460/t51.2885-15/sh0.08/e35/s640x640/70367691_2386733384878724_3769865169782033076_n.jpg',
             ],
           ],
           'caption' => [
-            'text' => 'Congratulations to current Part-time MBA Dmitriy Brussintsov (centre) for reaching the finals of the 2018 “INSIDE LVMH” program. He joined up with some students from our SIM programme to take part in this global competition. 📷 ',
+            'text' => 'Welcome Week annual tradition: Outdoor Day! FT2020 starting to explore their class team dynamics in the #Swiss Alps.',
           ],
         ],
         [
-          'id' => 'BiweaukHdTT',
-          'shortcode' => 'BiweaukHdTT',
+          'id' => 'B15qNXRItnb',
+          'shortcode' => 'B15qNXRItnb',
           'link' => 'https://www.instagram.com/p/BiweaukHdTT',
           'images' => [
             'low_resolution' => [
-              'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/5176a799b97c484b87003a93fc0f9361/5B9BFEBF/t51.2885-15/e35/31748634_208122266657584_781542455685152768_n.jpg',
+              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/9e6f36fe7676bd9699c23f08d956b3ee/5E3D89CE/t51.2885-15/sh0.08/e35/p640x640/70520730_140577727192159_3888400144851672526_n.jpg',
             ],
           ],
           'caption' => [
-            'text' => '#Zurich, join us tomorrow after work for our #MBA Info Event at Haus zum Rüden. Meet alumni and the team to ask your questions from 18:00 - 21:00. Free registration, link in bio.',
+            'text' => 'Our Full-time Class of 2020 has arrived on campus! Welcome everyone to the University of St.Gallen MBA.',
           ],
         ],
         [
-          'id' => 'BiW1N0nnbWK',
-          'shortcode' => 'BiW1N0nnbWK',
-          'link' => 'https://www.instagram.com/p/BiW1N0nnbWK',
+          'id' => 'B03mpntAnuT',
+          'shortcode' => 'B03mpntAnuT',
+          'link' => 'https://www.instagram.com/p/B03mpntAnuT',
           'images' => [
             'low_resolution' => [
-              'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/6f32db9f4aa58adfe439af05e5800591/5B8FA882/t51.2885-15/e35/31401052_388569301644582_3591806034961760256_n.jpg',
+              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/0cb6247fbcad7bb940a960e4aef36657/5E01566F/t51.2885-15/sh0.08/e35/s640x640/67566116_117043936288927_4807807865992596671_n.jpg',
             ],
           ],
           'caption' => [
-            'text' => 'Some of our MBAs did a recent study mission to Singapore 🇸🇬',
+            'text' => 'Part-time Class of 2021, welcome to the University of St.Gallen!',
           ],
         ],
         [
-          'id' => 'BiMHoMcHNhE',
-          'shortcode' => 'BiMHoMcHNhE',
-          'link' => 'https://www.instagram.com/p/BiMHoMcHNhE',
+          'id' => 'B0fnORjC3Gl',
+          'shortcode' => 'B0fnORjC3Gl',
+          'link' => 'https://www.instagram.com/p/B0fnORjC3Gl',
           'images' => [
             'low_resolution' => [
-              'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/56123e648bf71fd33ab82f77b6e6b591/5B887613/t51.2885-15/e35/31463316_1706845616071769_342089974713155584_n.jpg',
+              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/f5b72901d86f6adbb4d5e60a12c5d2f4/5DF67574/t51.2885-15/sh0.08/e35/s640x640/66809780_357548941608429_1316955847506125811_n.jpg',
             ],
           ],
           'caption' => [
-            'text' => 'Another big #thankyou to those who contributed to “Tanzanight” in support of the Full-time MBA charity project! Photo set 2/2.',
+            'text' => 'This year’s Homecoming dinner will be hosted at Lokremise, located in a converted locomotive roundhouse, the largest in Switzerland that still survives from the early 1900s. Register for Homecoming 2019 now using the link in our bio. Lokremise.ch',
           ],
         ],
         [
-          'id' => 'BiMESp9nfCZ',
-          'shortcode' => 'BiMESp9nfCZ',
-          'link' => 'https://www.instagram.com/p/BiMESp9nfCZ',
+          'id' => 'B0EIWQMCWTG',
+          'shortcode' => 'B0EIWQMCWTG',
+          'link' => 'https://www.instagram.com/p/B0EIWQMCWTG',
           'images' => [
             'low_resolution' => [
-              'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/469f815827618c644b2f3a9c13fa00f2/5B859A05/t51.2885-15/e35/30900040_237201903496744_5893046892228509696_n.jpg',
+              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/17ef83d48be01d4d7feeee62f9937669/5E10315B/t51.2885-15/sh0.08/e35/p750x750/66509590_732150223907365_3023557362297737562_n.jpg',
             ],
           ],
           'caption' => [
-            'text' => 'Thank you to everyone who came out to support our MBAs on Friday for their #fundraiser! Photo set Part 1/2.',
+            'text' => 'We dug into the archives to source some MBA memories from last decade. Did you graduate in the mid-2000s? Refresh your memories and create new ones at Homecoming this year: 28 September in St.Gallen! We’ve updated the format for 2019.',
           ],
         ],
         [
-          'id' => 'BiFa_jOn_Z7',
-          'shortcode' => 'BiFa_jOn_Z7',
-          'link' => 'https://www.instagram.com/p/BiFa_jOn_Z7',
+          'id' => 'BzzyPvkixb-',
+          'shortcode' => 'BzzyPvkixb-',
+          'link' => 'https://www.instagram.com/p/BzzyPvkixb-',
           'images' => [
             'low_resolution' => [
-              'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/241ff938e81f5edeb9997173307fdf38/5B91B4FD/t51.2885-15/e35/30605245_420796315033149_8530602719772147712_n.jpg',
+              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/34137af835025fb0d215d45a182358a2/5DF695E8/t51.2885-15/sh0.08/e35/s750x750/66174354_651741228671788_4773287210034077870_n.jpg',
             ],
           ],
           'caption' => [
-            'text' => 'Arjun, from the Class of 2018, showing his skills on the axe 🤘🏼 Last night our Full-time MBAs kicked off their charity #fundraiser with a concert. More concert photos coming soon to our Facebook, Instagram and Tumblr.',
+            'text' => 'In the latest issue of Forbes Switzerland we wanted to highlight the depth of emerging technology experiences we have developed for our MBAs in the past year: a case competition with @sixgroup; electives co-delivered with @microsoftch, #VerumCapital, @ginettateam and other industry experts; company visit to #CryptoFinance AG; and more. Thank you to all our partners for helping further deepen this competence area of our programme.',
           ],
         ],
         [
-          'id' => 'Bh8ej1FnS1W',
-          'shortcode' => 'Bh8ej1FnS1W',
-          'link' => 'https://www.instagram.com/p/Bh8ej1FnS1W',
+          'id' => 'Bzx0TNDIvbX',
+          'shortcode' => 'Bzx0TNDIvbX',
+          'link' => 'https://www.instagram.com/p/Bzx0TNDIvbX',
           'images' => [
             'low_resolution' => [
-              'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/5728c0c53beec73bc3ace6277a12bb2e/5B7B00CC/t51.2885-15/e35/30592556_947382698755478_8477859357441130496_n.jpg',
+              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/54954c4c069757bb74b3674b7540cd0a/5DFD9582/t51.2885-15/sh0.08/e35/p640x640/66482660_129207401635917_3015888903583616945_n.jpg',
             ],
           ],
           'caption' => [
-            'text' => 'Career Service Managers, David O’Connor and Dominique Gobat, delivering an interactive session to our Full-time MBAs yesterday on the topic of #networking, covering both in-person and online strategies.',
+            'text' => 'Have you read the @the_fintech_times article by Matthias Weissl, co-lecturer of our #Fintech elective? Online and in print now. The print version is available in our MBA reception.',
           ],
         ],
         [
-          'id' => 'Bh6ReH4nEp6',
-          'shortcode' => 'Bh6ReH4nEp6',
-          'link' => 'https://www.instagram.com/p/Bh6ReH4nEp6',
+          'id' => 'By5yxRDCiXd',
+          'shortcode' => 'By5yxRDCiXd',
+          'link' => 'https://www.instagram.com/p/By5yxRDCiXd',
           'images' => [
             'low_resolution' => [
-              'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/a41ee72b9382ae3ffb169cf72bc8843d/5B767BA7/t51.2885-15/e35/30591890_2092233024390221_8676976622559035392_n.jpg',
+              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/edc5329b5291c31b1ff0cc499cd04c38/5E093D5E/t51.2885-15/sh0.08/e35/s640x640/62547841_624001864785140_5861506456396632843_n.jpg',
             ],
           ],
           'caption' => [
-            'text' => '👏👏Well done to all our MBAs, alumni and their friends and family who came out to represent the University of St.Gallen MBA at this year’s Zurich #Marathon Team Run! 🏃&zwj;♀️🏃',
+            'text' => 'Some of our Women in Business Club, all members of different classes, meeting up in Switzerland ',
           ],
         ],
         [
-          'id' => 'BhyU_8KHJMW',
-          'shortcode' => 'BhyU_8KHJMW',
-          'link' => 'https://www.instagram.com/p/BhyU_8KHJMW',
+          'id' => 'ByYjv9Ei9aC',
+          'shortcode' => 'ByYjv9Ei9aC',
+          'link' => 'https://www.instagram.com/p/ByYjv9Ei9aC',
           'images' => [
             'low_resolution' => [
-              'url' => 'https://scontent-frt3-2.cdninstagram.com/vp/dc5ee7a01ee6f5035a96d6899869baca/5B770F7F/t51.2885-15/e35/30841906_191888794939666_8667454967826612224_n.jpg',
+              'url' => 'https://instagram.fcpt4-1.fna.fbcdn.net/vp/f9234437a87c46b449a709c47ac34283/5E10F04D/t51.2885-15/e35/62148318_2034993386807472_3376290975026198462_n.jpg',
             ],
           ],
           'caption' => [
-            'text' => '⏱The new #light installation on the entrance of St.Gallen’s train station is a clock. Have you deciphered it yet?',
+            'text' => 'The Financial Times is conducting a review of its MBA ranking methodology. Today we were invited to their brand new HQ at Bracken House to provide feedback and ideas alongside representatives from other global programmes. Thank you to the Financial Times for creating this open dialogue with business schools as you look at ways to evolve the rankings.',
           ],
         ],
 
